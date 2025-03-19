@@ -10,25 +10,6 @@
  * GNU General Public License for more details.
  */
 
-#include "dsi-panel-sim-video.dtsi"
-#include "dsi-panel-sim-dualmipi-video.dtsi"
-#include "dsi-panel-sim-cmd.dtsi"
-#include "dsi-panel-sim-dualmipi-cmd.dtsi"
-#include "dsi-panel-truly-1080p-video.dtsi"
-#include "dsi-panel-truly-1080p-cmd.dtsi"
-#include "dsi-adv7533-1080p.dtsi"
-#include "dsi-adv7533-720p.dtsi"
-#include "dsi-panel-r69006-1080p-video.dtsi"
-#include "dsi-panel-r69006-1080p-cmd.dtsi"
-#include "dsi-panel-truly-wuxga-video.dtsi"
-#include "dsi-panel-lt8912-480p-video.dtsi"
-#include "dsi-panel-lt8912-1080p-video.dtsi"
-#include "dsi-panel-hx8399c-fhd-plus-video.dtsi"
-#include "dsi-panel-hx83100a-800p-video.dtsi"
-#include "dsi-panel-boent51021-1200p-video.dtsi"
-#include "dsi-panel-hx8394d-wxga-video.dtsi"
-#include "dsi-panel-inxnt51021-1200p-video.dtsi"
-
 &soc {
 	dsi_panel_pwr_supply: dsi_panel_pwr_supply {
 		#address-cells = <1>;
